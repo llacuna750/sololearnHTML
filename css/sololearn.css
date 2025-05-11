@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    background: #F2F2F2;
+    margin: 1;
+    padding: 0;
+    /* font-family: Kablammo; */
+    /* font-family: Lora; */
+    /* font-family: Sour Gummy; */
+    height: 2000px;
+    font-family: Lato;                           
+}
+
+:root {
+    --mmain-color: #3bb14e;
+}
+
+ul.cchange {
+    color: rgb(14, 204, 71);
+}
+
+div.mypicture {
+    border: 2px outset black;
+    border-radius: 10px;
+    background-color: var(--mmain-color);
+
+    img  {
+        /* margin: 0 ; */
+        padding: 1em;
+        height: 1;
+        width: 1;
+        margin-left: 15em;
+        border-radius: 4em;
+        
+    }
+}
+
+.boxmodel {
+    border: 1px solid  rgba(202, 38, 38, 0.685);
+    margin-top: 10px;
+
+    /*     Border picture     */
+    .border {
+        /* padding-left: 10em; */
+        padding: 10px;
+        /* text-align: center; */
+    }
+
+    img {
+        /* display: none; */
+    }
+}
+
+
+.drop-downlist {
+    margin-top: 10px;
+    padding: 1em;
+    border: 1px solid #7e1bc0;
+    border-radius: 3px;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#back-to-top:hover {
+    background-color: #0056b3;
+}
+
+input[type="submit"], input[type="text"] {
+    border: 1px solid #FF9E03;
+}
+
+label {
+    font-family: Arial;
+    font-weight: bold;
+    /* color: #FF9E03; */
+}
